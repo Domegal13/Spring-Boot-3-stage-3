@@ -36,4 +36,18 @@ public class ConsultaController {
         var response = service.agendar(datos);
         return ResponseEntity.ok(response);
     }
+
+//    @DeleteMapping
+//    @Transactional
+//    @Operation(
+//            summary = "cancela una consulta en ela agenda",
+//            description = "requiere motivo",
+//            tags = { "consulta", "delete" })
+//    public ResponseEntity cancelar(@RequestBody @Valid DatosCancelamientoConsulta datos) throws ValidacionDeIntegridad {
+//        var response = service.cancelar(datos);
+//        return ResponseEntity.noContent().build();
+//    }
+
+
+
 }
